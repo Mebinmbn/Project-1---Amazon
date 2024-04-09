@@ -3,7 +3,13 @@
     font-family: Amazon Ember,Arial, Helvetica, sans-serif;
     border: border-box;
 }
-
+.curs-point{
+    cursor: pointer;
+}
+.box-content p:hover{
+    text-decoration: underline;
+    color: #C7511F;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -178,6 +184,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    cursor: pointer;
 
 }
 
@@ -191,10 +198,17 @@ span{
     justify-content: center;
     font-size: 0.85rem;
     margin-bottom: 10px;
+    cursor: default;
     
 }
 .hero-message a{
     color: #007185;
+    text-decoration: none;
+}
+.hero-message a:hover{
+    text-decoration: underline;
+    color: #C7511F;
+    cursor: pointer;
 }
 /* shop-section */
 
