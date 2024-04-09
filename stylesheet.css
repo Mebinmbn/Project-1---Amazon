@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Amazon Ember,Arial, Helvetica, sans-serif;
     border: border-box;
 }
 
@@ -27,7 +27,8 @@
 }
 
 .border{
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
+    padding: .5%;
    
 }
 .border:hover{
@@ -62,7 +63,7 @@
     border-radius: 4px;
 }
 .search-select{
-    background-color: #f3f3f3;
+    background-color: #e6e6e6;
     width: 50px;
     text-align: center;
     border-top-left-radius:  4px;
@@ -86,8 +87,11 @@
     color: #0f1111;
 }
 
-.nav-search:hover{
-    border: 2px solid #fcbd68;
+.search-select:hover{
+    background-color: #d8d3d3;
+}
+.search-icon:hover{
+    background-color: #f6ac4b;
 }
 
 /* Language */
@@ -144,17 +148,24 @@ span{
     color: white;
     justify-content: space-evenly;
 }
-.panel-options p{
-    display: inline;
-    margin-left: 15px;
-}
 .panel-options{
     width: 70%;
     font-size: 0.85rem;
+    display: flex;
+}
+.panel-opt-list{
+    margin-left: 20px;
+    cursor: pointer;
+    padding:  5px 0px 5px 0px;
+}
+.curs-move:hover{
+  padding:  6px 0px 4px 0px;
 }
 .panel-deals{
     font-size: 0.9rem;
     font-weight: 700;
+    cursor: pointer;
+    padding:  5px 0px 5px 0px;
 }
 
 /* hero-section */
@@ -359,15 +370,55 @@ span{
     margin-right: 20px;
 }
 
+
+.footer-panel-2{
+    background-color: #131A22;
+    height: 375.6.6px;
+    padding-top: 25px;
+}
+.footer-table-contaier{
+    background-color: #131A22;
+    height: 375.6px;
+    max-width: 1300px;
+    margin: 20px auto 0px auto;
+    padding: 0px auto 0px auto;
+}
+
+.table-data{
+font-size: 12px;
+padding: 0 .75em;
+vertical-align: top;
+text-align: left;
+line-height: 115%;
+}
+.table-data a{
+    color: #ddd;
+    text-decoration: none;
+}
+.table-span{
+    margin: 0;
+    color: #999;
+}
+
+.table-spacer{
+width: 3%;
+padding: 0px 10px 0px 10px;
+}
+
+.table-data a:hover{
+    text-decoration: underline;
+}
+
 /* panel4 */
 .foot-panel4{
-    background-color: #0f1111;
+    background-color: #131A22;
     height: 80px;
-    /* display: flex; */
     color: white;
     font-size: 0.85rem;
     text-align: center;
 }
+
+
 .list-pages{
     display: inline;
 }
@@ -384,9 +435,9 @@ span{
 #check{
     margin-left: 10px;
 }
-.pages{
+/* .pages{
 padding-top: 25px;
-}
+} */
 .copyright{
    
     padding-top: 10px;
