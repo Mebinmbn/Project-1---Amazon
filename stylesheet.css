@@ -442,6 +442,12 @@ padding: 0px 10px 0px 10px;
     margin-left: 20px;
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.list-pages a:hover{
+    text-decoration: underline;
 }
 #cross{
     color: blue;
@@ -454,7 +460,7 @@ padding: 0px 10px 0px 10px;
 padding-top: 25px;
 } */
 .copyright{
-   
+   font-size: 12px;
     padding-top: 10px;
 }
 
