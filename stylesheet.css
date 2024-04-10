@@ -6,10 +6,7 @@
 .curs-point{
     cursor: pointer;
 }
-.box-content p:hover{
-    text-decoration: underline;
-    color: #C7511F;
-}
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -239,6 +236,10 @@ margin-bottom: 15px;
 }
 .box-content p{
     color: #007185;
+}
+.box-content p:hover{
+    text-decoration: underline;
+    color: #C7511F;
 }
 
 .movies{
