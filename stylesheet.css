@@ -1,12 +1,17 @@
+@font-face {
+    font-family: Amazon Ember;
+    src: url("/fonts/Amazon Ember.ttf");
+}
 *{
     margin: 0;
-    font-family: Amazon Ember,Arial, Helvetica, sans-serif;
+    font-family: "Amazon Ember",Arial, Helvetica, sans-serif;
     border: border-box;
 }
 .curs-point{
     cursor: pointer;
 }
 
+/* Nav bar */
 .navbar{
     height: 60px;
     background-color: #0f1111;
